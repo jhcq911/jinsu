@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金素科技企业官网</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS库用于滚动动画 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="金素科技Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#products">产品</a></li>
+                <li><a href="#solutions">解决方案</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#news">新闻中心</a></li>
+                <li><a href="#join">加入我们</a></li>
+            </ul>
+            <div class="nav-right">
+                <select class="language-select">
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                </select>
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero部分 -->
+    <section class="hero" id="home">
+        <div class="animated-bg">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 data-aos="fade-up">创新科技 引领未来</h1>
+            <p data-aos="fade-up" data-aos-delay="200">
+                致力于为企业提供领先的技术解决方案
+            </p>
+            <button class="cta-button" data-aos="fade-up" data-aos-delay="400">
+                了解更多
+            </button>
+        </div>
+    </section>
+
+    <!-- 核心优势 -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2 class="section-title">核心优势</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card" data-aos="fade-up">
+                    <i class="fas fa-rocket"></i>
+                    <h3>创新技术</h3>
+                    <p>持续创新，引领行业发展</p>
+                </div>
+                <div class="advantage-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>安全可靠</h3>
+                    <p>严格的安全标准，保障系统稳定运行</p>
+                </div>
+                <div class="advantage-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-users"></i>
+                    <h3>专业团队</h3>
+                    <p>资深专家，为您提供专业服务</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示区 -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">产品展示</h2>
+            <div class="product-slider">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="product1.jpg" alt="产品1">
+                    </div>
+                    <div class="product-info">
+                        <h3>智能管理系统</h3>
+                        <p>基于AI的企业级管理解决方案</p>
+                        <a href="#" class="learn-more">了解更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- 更多产品卡片 -->
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解决方案展示 -->
+    <section class="solutions" id="solutions">
+        <div class="container">
+            <h2 class="section-title">解决方案</h2>
+            <div class="solutions-grid">
+                <div class="solution-card" data-aos="fade-up">
+                    <div class="solution-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>工业智能化</h3>
+                    <p>为制造业提供智能化升级方案</p>
+                    <div class="solution-hover">
+                        <h4>核心功能</h4>
+                        <ul>
+                            <li>生产线自动化</li>
+                            <li>数据实时监控</li>
+                            <li>预测性维护</li>
+                        </ul>
+                        <a href="#" class="learn-more">查看详情</a>
+                    </div>
+                </div>
+                <!-- 更多解决方案卡片 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 客户案例 -->
+    <section class="cases" id="cases">
+        <div class="container">
+            <h2 class="section-title">成功案例</h2>
+            <div class="client-logos" data-aos="fade-up">
+                <!-- 客户Logo墙 -->
+                <div class="logo-grid">
+                    <img src="client1.png" alt="咸亨国际">
+                    <img src="client2.png" alt="陇上行">
+                    <img src="client3.png" alt="镁泰消毒柜">
+                    <!-- 更多客户logo -->
+                </div>
+            </div>
+            <div class="case-studies">
+                <div class="case-card" data-aos="fade-up">
+                    <img src="case1.jpg" alt="咸亨国际案例">
+                    <div class="case-content">
+                        <h3>咸亨国际数字展厅项目</h3>
+                        <p>咸亨国际聚焦能源、交通、应急等领域，为大型集团化企业和政府部门提供全方位、一体化的产品、服务和解决方案，是A股上市公司。</p>
+                        <p>咸亨国际多媒体数字展厅项目主要通过汇集多维度数据，全方位展示咸亨国际的企业发展历程及其核心业务能力，打造立体可视的企业宣传窗口。本项目主要包括时光记忆、数字赋能、科技创新、集约生态、驱动平台、战略布局、社会责任、超长灯带、开合屏以及PAD控制应用端等内容建设。</p>
+                        <a href="#" class="case-link">查看详情</a>
+                    </div>
+                </div>
+
+                <div class="case-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="case2.jpg" alt="陇上好粮油案例">
+                    <div class="case-content">
+                        <h3>陇上好粮油商城项目</h3>
+                        <p>公司团队参与陇上好粮油线上商城、商户管理平台等相关软件的开发。</p>
+                        <p>"陇上好粮油"作为优质粮食工程重要子项目，围绕区域公用品牌建设，全面提升粮油产品绿色化、优质化、特色化、信息化、专业化，全面提升好粮油产品的有效供给和应急保障能力，实现了甘肃粮食大数据横向纵向的互通应用，推动粮食产业转型升级。</p>
+                        <a href="#" class="case-link">查看详情</a>
+                    </div>
+                </div>
+
+                <div class="case-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="case3.jpg" alt="镁泰消毒机案例">
+                    <div class="case-content">
+                        <h3>镁泰消毒机物联网管理平台</h3>
+                        <p>传统的消毒机设备只能人工在现场用遥控或按键操控设备，而且对设备的运行状态无法远程获知。本项目旨在开发一款能够实时远程控制、实时获取设备状态数据的消毒机物联网管理平台软件，提高设备管理效率和企业运营能力。</p>
+                        <p>本软件基于4G网络，采用JavaWeb技术，实现了对设备的远程控制、状态获取。帮助企业形成自有的运营和运维策略，提高企业竞争力。</p>
+                        <a href="#" class="case-link">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于我们</h3>
+                    <p>杭州金素科技有限公司，成立于2020年，是一家致力于技术创新和优质服务的软件科技企业。公司位于风景秀丽的杭州，依托区域丰富的科技资源和良好的产业环境，专业从事软件定制研发、IT技术服务及数据智能等相关领域服务。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p>电话：158-6813-8661</p>
+                    <p>邮箱：caoqian@jinsutech.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 杭州金素科技有限公司. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS库 -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- 自定义JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
